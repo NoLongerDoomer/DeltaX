@@ -5,13 +5,13 @@
 <html>
 
 <head>
-<meta charset="ISO-8859-1">
-<title>Add Tracks</title>
-<script type="text/javascript" src="static/js/jquery.min.js"></script>
-<script type="text/javascript" src="static/js/bootstrap.js"></script>
-<link rel="stylesheet" href="static/css/bootstrap.css">
-<link rel="stylesheet" href="static/css/multi-select.css">
-<script type="text/javascript" src="static/js/multi-select.js"></script>
+	<meta charset="ISO-8859-1">
+	<title>Add Tracks</title>
+	<script type="text/javascript" src="static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="static/css/bootstrap.css">
+	<link rel="stylesheet" href="static/css/multi-select.css">
+	<script type="text/javascript" src="static/js/multi-select.js"></script>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 		<div class="row mt-3 mb-3">
 			<div class="col">Upload Image</div>
 			<div class="col">
-				<input type="file" name="cover" accept="image/*" >
+				<input type="file" name="cover" accept="image/*">
 			</div>
 		</div>
 		<div class="row mb-4">
@@ -56,13 +56,12 @@
 		</div>
 		<div class="row mb-4">
 			<div class="col">
-				<label>If you Dont see your artists in Multi select Click to
+				<label>If you Don't see your artists in Multi-select Click to
 					add</label>
 			</div>
 			<div class="col">
 				<div>
-					<button class="btn btn-primary"
-						onclick="$('#addartistsmodal').modal('show');">Add Artist</button>
+					<button class="btn btn-primary" onclick="$('#addartistsmodal').modal('show');">Add Artist</button>
 				</div>
 			</div>
 		</div>
@@ -81,8 +80,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title">Add Artist</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal"
-						aria-label="Close"></button>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
 					<div class="container">
@@ -113,8 +111,7 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary"
-						data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 					<button type="button" class="btn btn-primary" id="addartistbutton">Add</button>
 				</div>
 			</div>

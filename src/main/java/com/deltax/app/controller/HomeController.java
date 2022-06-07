@@ -32,6 +32,7 @@ public class HomeController {
 		return "home";
 	}
 
+	/* Get all tracks from the database */
 	@GetMapping("/gettracks")
 	@ResponseBody
 	public String getTracks() {
@@ -39,6 +40,7 @@ public class HomeController {
 		return new Gson().toJson(songs);
 	}
 
+	/* Redirects you to add songs Page */
 	@RequestMapping("/addsongpage")
 	public String toSongPage() {
 		return "addsongs";
